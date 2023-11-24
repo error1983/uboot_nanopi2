@@ -741,3 +741,8 @@ config CONSOLE_RECORD_IN_SIZE
 	  tstc() and getc() will use this in preference to real device input.
 	  The buffer is allocated immediately after the malloc() region is
 	  ready.
+
+config CMD_MII
+    bool "mii"
+    help
+      mii

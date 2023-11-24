@@ -73,6 +73,10 @@
 		status ="okay";
 	};
 
+    gmac:ethernet@c0060000 {
+        status ="okay";
+    };
+
 	dp0:dp@c0102800 {
 		status = "okay";
 		module = <0>;
